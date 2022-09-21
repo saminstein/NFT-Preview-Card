@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Outfit:wght@300;400;600&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+}
+
+
+.nft-container {
+  width: 320px;
+  height: 522px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px 10px hsl(215, 32%, 27%);
+}
+
+
+.cube-images {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.cube {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  margin: 1.2rem;
+  border-radius: 10px;
+}
+
+
+.eyes-icon {
+  position: absolute;
+  top: 234px;
+  left: 158px;
+  display: none;
+}
+
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: 'Outfit';
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 1.2rem;
+}
+
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-family: 'Outfit';
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 1.2rem;
+  margin-top: 1rem;
+  z-index: 2;
+}
+
+
+.icon-eth {  
+  margin-left: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+
+.eth-price {
+  color: hsl(178, 100%, 50%);
+  font-family: 'Outfit';
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 2px;
+  margin-top: 10px;
+}
+
+
+.eth-count {
+  color: hsl(215, 51%, 70%);
+  font-family: 'Outfit';
+  font-size: 17px;
+  font-weight: 300;
+  margin-left: 0.6rem;
+  padding-bottom: 6rem;
+}
+
+
+.icon-timer {
+  margin-left: 5.9rem;
+  margin-top: 1rem;
+}
+
+
+hr {
+  margin: 1.2rem 1.2rem 0 1.2rem;
+  border: 1px solid hsl(215, 32%, 27%);
+  opacity: 0.7;
+}
+
+
+.creator {
+  display: flex;
+}
+
+
+.face {
+  margin-top: 0.4rem;
+  margin-left: 1rem;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+
+.C-blue {
+  margin-left: 0.8rem;
+  margin-top: 0.7rem;
+}
+
+
+.J-white {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: hsl(178, 100%, 50%);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+/*
+div img:hover {
+  color: red;
+  cursor:pointer;
+}
+*/
