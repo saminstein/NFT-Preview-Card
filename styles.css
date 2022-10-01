@@ -71,89 +71,160 @@ p {
 }
 
 
-.icon-eth {  
-  margin-left: 1.2rem;
-  margin-top: 1.2rem;
+.coin-info {
+
+  display: flex;
+
+  justify-content: space-between;
+
 }
 
 
-.eth-price {
+.icon-eth {
+
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: center;
+
+  column-gap: 0.4rem;
+
   color: hsl(178, 100%, 50%);
+
   font-family: 'Outfit';
-  font-size: 15px;
+
   font-weight: 400;
-  margin-left: 2px;
-  margin-top: 10px;
-}
 
+  font-size: 1rem;
 
-.eth-count {
-  color: hsl(215, 51%, 70%);
-  font-family: 'Outfit';
-  font-size: 17px;
-  font-weight: 300;
-  margin-left: 0.6rem;
-  padding-bottom: 6rem;
 }
 
 
 .icon-timer {
-  margin-left: 5.9rem;
-  margin-top: 1rem;
-}
+
+  display: flex;
+
+  flex-direction: row;
+
+  align-items: center;
+
+  margin-right: 1.9rem;
+
+  column-gap: 0.4rem;
+
+  font-family: 'Outfit';
+
+  font-weight: 400;
+
+  font-size: 1rem;
+
+ }
 
 
 hr {
+
   margin: 1.2rem 1.2rem 0 1.2rem;
+
   border: 1px solid hsl(215, 32%, 27%);
+
   opacity: 0.7;
+
 }
 
 
 .creator {
+
   display: flex;
+
 }
 
 
 .face {
+
   margin-top: 0.4rem;
+
   margin-left: 1rem;
+
   width: 30px;
+
   height: 30px;
+
   border: 1px solid white;
+
   border-radius: 50%;
+
 }
 
 
 .C-blue {
+
   margin-left: 0.8rem;
+
   margin-top: 0.7rem;
+
+  font-size: 1rem;
+
 }
 
 
 .J-white {
+
   color: #fff;
+
   text-decoration: none;
+
 }
 
 
 a:hover {
+
   color: hsl(178, 100%, 50%);
+
   transition: 0.3s ease-in-out;
+
   cursor: pointer;
+
 }
 
 
 h1:hover {
+
   color: hsl(178, 100%, 50%);
+
   transition: 0.3s ease-in-out;
+
   cursor: pointer;
+
 }
 
 
-/*
-div img:hover {
-  color: red;
-  cursor:pointer;
-}
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
