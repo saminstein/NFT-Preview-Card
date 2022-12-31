@@ -22,7 +22,7 @@ body {
   height: 522px;
   background-color: hsl(216, 50%, 16%);
   border-radius: 10px;
-  box-shadow: 5px 10px 10px 10px hsl(rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 
